@@ -4,12 +4,13 @@ import { useNavigate } from "react-router-dom";
 
 const DetailItem = ({ detail }) => {
   const navigate = useNavigate();
-  const { id, price, image, title } = detail;
+  const { precio, imagen, titulo } = detail;
   return (
     <div className="product-card">
-      <img src={image} alt={title} width={200} height={200} />
-      <span>{title}</span>
-      <p>${price}</p>
+      <img src={imagen} alt={titulo} width={200} height={200} />
+      <span>{titulo}</span>
+      <p>${precio}</p>
+      <p></p>
       <input type="submit" value="Comprar" />
       <input type="submit" value="Volver" onClick={() => navigate(`/shop`)} />
     </div>

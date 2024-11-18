@@ -9,7 +9,7 @@ import {
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-
+<h1>ecommerce</h1>
   <App />
 </StrictMode>,
 )

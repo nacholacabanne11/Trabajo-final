@@ -1,14 +1,13 @@
 body {
   background-color: #f5f5dc; /* Fondo crema claro */
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin: 0;
   font-family: Arial, sans-serif;
 }
 
 #logg {
+ 
   background-color: #1a1a1a; /* Fondo del formulario oscuro */
   padding: 25px;
   border-radius: 10px;
